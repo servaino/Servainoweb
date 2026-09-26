@@ -1,1 +1,58 @@
-pagina web de angel
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Volar - La Plata</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			min-height: 100vh;
+			margin: 0;
+			display: grid;
+			place-items: center;
+			padding: 24px;
+			background: skyblue;
+			color: red;
+			font-family: "Comic Sans MS", "Comic Sans", cursive;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		main {
+			width: min(100%, 680px);
+		}
+
+		h1 {
+			margin: 0 0 8px;
+			font-size: 2em;
+		}
+
+		p {
+			margin: 0 0 24px;
+		}
+
+		.lyrics-placeholder {
+			min-height: 120px;
+			padding: 16px;
+			border: 1px solid currentColor;
+			line-height: 1.6;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Volar</h1>
+		<p>La Plata</p>
+		<div class="lyrics-placeholder" aria-label="Espacio para la letra">
+			Me siento sin aire<br>
+			Que desaparezco como si no fuera real<br>
+			Como si esta vida no fuera la mía<br>
+			Y yo llevase puesto un disfraz
+		</div>
+	</main>
+</body>
+</html>
